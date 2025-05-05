@@ -1,0 +1,2 @@
+
+SELECT tname, subject FROM teachers WHERE subject = 'Physics'
