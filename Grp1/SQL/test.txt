@@ -1,0 +1,5 @@
+CREATE TABLE Employees (
+    ID INTEGER PRIMARY KEY,
+    Name VARCHAR(50),
+    Age INTEGER
+);

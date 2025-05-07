@@ -1,0 +1,11 @@
+INSERT INTO Employees (ID, Name, Age) VALUES (1, 'John Doe', 30);
+
+UPDATE Employees SET Age = 35 WHERE ID = 1;
+
+DELETE FROM Employees WHERE Age < 30;
+
+CREATE INDEX idx_name ON Employees(Name);
+
+DROP TABLE Employees;
+
+ALTER TABLE Employees ADD COLUMN Email VARCHAR(100);

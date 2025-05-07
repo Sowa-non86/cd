@@ -1,0 +1,6 @@
+bison -d filename.y
+flex filename.l
+
+gcc .y .l -o outputname
+
+outputname.exe
